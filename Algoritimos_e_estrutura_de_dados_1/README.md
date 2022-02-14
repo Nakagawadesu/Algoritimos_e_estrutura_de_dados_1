@@ -1,4 +1,4 @@
-# Desafios do Hackerrank
+# Desafios do Hackerrank :medal_military:
 
 # Ponteiros em structs - medidas de estrutura esfera
 
