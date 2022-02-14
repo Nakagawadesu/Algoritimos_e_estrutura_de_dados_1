@@ -316,6 +316,43 @@ Input Format
 -12 20
 -Sample Output 0
 -4
+# Ordenação de strings - select sort
+- Implemente o algoritmo selection sort para ordenar vetor de strings.
+
+### Input Format
+
+- Na primeira linha deve ser lido o tamanho do vetor. A partir da segunda linha, ler as strings do vetor.
+
+### Constraints
+
+ - .
+
+### Output Format
+
+- Imprimir o vetor após a ordenação.
+
+### Sample Input 0
+
+- 8
+- joao_paulo
+- tereza
+- joao_luiz
+- vegeta
+- ana
+- vampeta
+- yusuke
+- aioria
+### Sample Output 0
+
+- aioria
+- ana
+- joao_luiz
+- joao_paulo
+- tereza
+- vampeta
+- vegeta
+- yusuke
+
 # Algoritmos de ordenação - ordenação simples em listas encadedadas
 
 - Implemente um dos algoritmos de ordenação simples apresentados em sala de aula (bublesort, selection sort ou insertion sort) para ordenar elementos de uma lista encadeada de números inteiros positivos.
