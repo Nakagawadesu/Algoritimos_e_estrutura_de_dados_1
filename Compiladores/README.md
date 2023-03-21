@@ -60,9 +60,9 @@ Rules
 How to run the program: 
 To run the program, it should be first saved with the extension .l or .lex. Run the below commands on terminal in order to run the program file. 
 
-Step 1: flex filename.l or flex filename.lex depending on the extension file is saved with 
-Step 2: gcc lex.yy.c 
-Step 3: ./a.out 
-Step 4: Provide the input to program in case it is required
+- Step 1: flex filename.l or flex filename.lex depending on the extension file is saved with 
+- Step 2: gcc lex.yy.c 
+- Step 3: ./a.out 
+- Step 4: Provide the input to program in case it is required
 
-Note: Press Ctrl+D or use some rule to stop taking inputs from the user. Please see the output images of below programs to clear if in doubt to run the programs
+> Note: Press Ctrl+D or use some rule to stop taking inputs from the user. Please see the output images of below programs to clear if in doubt to run the programs
