@@ -1,21 +1,23 @@
-Program Structure: 
+## Program Structure: 
 
 In the input file, there are 3 sections: 
 
 1. Definition Section: The definition section contains the declaration of variables, regular definitions, manifest constants. In the definition section, text is enclosed in “%{ %}” brackets. Anything written in this brackets is copied directly to the file lex.yy.c
 
-Syntax: 
-
+ Syntax: 
+```
 %{
    // Definitions
 %}
+```
 2. Rules Section: The rules section contains a series of rules in the form: pattern action and pattern must be unintended and action begin on the same line in {} brackets. The rule section is enclosed in “%% %%”. 
 
 Syntax:  
-
+```
 %%
 pattern  action
 %%
+```
 Examples: Table below shows some of the pattern matches.  
 
 Pattern	It can match with
@@ -37,10 +39,11 @@ a+	1 or more occurrences of a
 [a-z]	all lower case letters
 [a-zA-Z]	any alphabetic letter
 w(x | y)z	wxz or wyz
+
 3. User Code Section: This section contains C statements and additional functions. We can also compile these functions separately and load with the lexical analyzer.
 
-Basic Program Structure:  
-
+## Basic Program Structure:  
+```
 %{
 // Definitions
 %}
@@ -48,8 +51,8 @@ Basic Program Structure:
 %%
 Rules
 %%
-
-User code section
+```
+## User code section
 How to run the program: 
 To run the program, it should be first saved with the extension .l or .lex. Run the below commands on terminal in order to run the program file. 
 
