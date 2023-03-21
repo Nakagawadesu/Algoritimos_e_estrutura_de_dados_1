@@ -21,24 +21,28 @@ pattern  action
 Examples: Table below shows some of the pattern matches.  
 
 Pattern	It can match with
-[0-9]	all the digits between 0 and 9
-[0+9]	either 0, + or 9
-[0, 9]	either 0, ‘, ‘ or 9
-[0 9]	either 0, ‘ ‘ or 9
-[-09]	either -, 0 or 9
-[-0-9]	either – or all digit between 0 and 9
-[0-9]+	one or more digit between 0 and 9
-[^a]	all the other characters except a
-[^A-Z]	all the other characters except the upper case letters
-a{2, 4}	either aa, aaa or aaaa
-a{2, }	two or more occurrences of a
-a{4}	exactly 4 a’s i.e, aaaa
-.	any character except newline
-a*	0 or more occurrences of a
-a+	1 or more occurrences of a
-[a-z]	all lower case letters
-[a-zA-Z]	any alphabetic letter
-w(x | y)z	wxz or wyz
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| [0-9]	 | all the digits between 0 and 9  |
+| [0+9]  | either 0, + or 9  |
+| [0, 9] | either 0, ‘, ‘ or 9  |
+| [0 9]  | either 0, ‘ ‘ or 9 |
+| [-09]  | either -, 0 or 9  |
+| [-0-9]  | either – or all digit between 0 and 9  |
+| [0-9]+  | one or more digit between 0 and 9  |
+| [^a]	  | all the other characters except a  |
+| [^A-Z]	  | all the other characters except the upper case letters  |
+| a{2, 4} |  either aa, aaa or aaaa |
+| a{2, }  | two or more occurrences of a  |
+| a{4}	  | exactly 4 a’s i.e, aaaa  |
+| . | any character except newline  |
+| a*  | 0 or more occurrences of a  |
+| a+	1  | 1 or more occurrences of a |
+| [a-z] | all lower case letters  |
+| [a-zA-Z] | any alphabetic letter  |
+| w(x | y)z | wxz or wyz  |
+
 
 3. User Code Section: This section contains C statements and additional functions. We can also compile these functions separately and load with the lexical analyzer.
 
